@@ -4,7 +4,6 @@ MAINTAINER Alexander Sokolovsky <amsokol@gmail.com>
 # User root user to install software
 USER root
 
-# Update to 7.1. Temporary fix until 7.1 images is not available
 RUN yum -y update && yum clean all
 
 # Install Oracle Java SDK 7
