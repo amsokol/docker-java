@@ -1,1 +1,1 @@
-docker build -t="amsokol/oraclelinux-java:7.1-7u75" .
+docker build -t="amsokol/centos-openjdk:7-1.7.0" .
